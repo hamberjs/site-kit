@@ -1,5 +1,9 @@
 # @hamberjs/site-kit changelog
 
+## 1.0.4
+
+* Prevent `<pre>` in homepage blurb breaking grid layout
+
 ## 1.0.3
 
 * Missing sidebar text
