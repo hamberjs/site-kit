@@ -1,0 +1,32 @@
+{
+  "name": "@hamberjs/site-kit",
+  "version": "1.0.1",
+  "description": "Styles and components for use in all Hamber websites",
+  "module": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamberjs/site-kit.git"
+  },
+  "author": "NKDuy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamberjs/site-kit/issues"
+  },
+  "homepage": "https://github.com/hamberjs/site-kit#readme",
+  "devDependencies": {
+    "hamber": "^3.2.0"
+  },
+  "dependencies": {
+    "@sindresorhus/slugify": "^0.9.1",
+    "golden-fleece": "^1.0.9"
+  },
+  "files": [
+    "index.mjs",
+    "base.css",
+    "components",
+    "utils"
+  ]
+}
