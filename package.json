@@ -1,23 +1,25 @@
 {
   "name": "@hamberjs/site-kit",
-  "version": "1.0.4",
+  "version": "1.2.5-0",
   "description": "Styles and components for use in all Hamber websites",
   "module": "index.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "testunit": "mocha -r esm test/unit/**"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hamberjs/site-kit.git"
   },
   "author": "NKDuy",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hamberjs/site-kit/issues"
   },
   "homepage": "https://github.com/hamberjs/site-kit#readme",
   "devDependencies": {
-    "hamber": "^3.2.0"
+    "esm": "^3.2.25",
+    "mocha": "^6.2.0",
+    "hamber": "~3.24.0"
   },
   "dependencies": {
     "@sindresorhus/slugify": "^0.9.1",

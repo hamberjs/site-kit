@@ -38,9 +38,10 @@ export function extract_metadata(line, lang) {
 export const langs = {
 	bash: 'bash',
 	html: 'markup',
-	sv: 'markup',
+	sv: 'hamber',
 	js: 'javascript',
-	css: 'css'
+	css: 'css',
+	diff: 'diff'
 };
 
 
@@ -57,5 +58,5 @@ export function link_renderer (href, title, text) {
 		title_attr = ` title="${title}"`;
 	}
 
-	return `<a href="${href}"${target_attr}${title_attr}>${text}</a>`;
+	return `<a href="${href}"${target_attr}${title_attr} rel="noopener noreferrer">${text}</a>`;
 }

@@ -100,8 +100,7 @@ body {
 /*	base reset ----------------------------- */
 html {
 	font-size: 62.5%;
-	-ms-text-size-adjust: 62.5%;
-	-webkit-text-size-adjust: 62.5%;
+	-webkit-text-size-adjust: 100%;
 	-ms-overflow-style: -ms-autohiding-scrollbar;
 	box-sizing: border-box;
 	border-collapse: collapse;
@@ -128,7 +127,6 @@ a {
 }
 
 a:hover, a:active { color: var(--flash) }
-a:focus { outline: none }
 
 /*
 -----------------------------------------------
@@ -233,9 +231,6 @@ button {
 	color: currentColor;
 	cursor: pointer;
 }
-
-button:focus,
-.btn:focus { outline: 0 }
 
 button[disabled],
 .btn[disabled],
@@ -445,7 +440,9 @@ input[type="checkbox"] {
 	top: -2px;
 	border-radius: 0.5em;
 	-webkit-appearance: none;
+	appearance: none;
 	outline: none;
+	border: transparent;
 	margin: 0 0.6em 0 0;
 }
 
@@ -483,5 +480,5 @@ input[type="checkbox"]::after {
 }
 
 input[type="checkbox"]:checked::after {
-	left: calc(100% - 9px);
+	left: calc(100% - 1em + 2px);
 }

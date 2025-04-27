@@ -57,10 +57,11 @@
 		position: absolute;
 		display: block;
 		right: 0;
-		top: 0.35em;
+		top: 0.3em;
 		width: 1em;
 		height: 1em;
 		background: url(/icons/arrow-right.svg);
+		background-size: 100% 100%;
 	}
 
 	.how {
@@ -75,6 +76,7 @@
 		background-color: var(--prime);
 		padding: 0.5em 1.8em 0.5em 1em;
 		border-radius: var(--border-r);
+		border: none;
 		color: white;
 		position: relative;
 	}
